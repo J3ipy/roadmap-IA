@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roadmap Definitivo: Engenheiro de IA em Robótica</title>
     <style>
         body {
@@ -62,6 +63,55 @@
             background-color: white;
             border-radius: 5px;
         }
+        .learning-resources {
+            background-color: #e6f3ff;
+            border-left: 5px solid #4285f4;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .learning-resources h4 {
+            margin-bottom: 10px;
+            color: #1a73e8;
+        }
+        .learning-resources ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .learning-resources li {
+            margin-bottom: 5px;
+        }
+        .learning-resources a {
+            color: #1a73e8;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .learning-resources a:hover {
+            color: #0d47a1;
+            text-decoration: underline;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .btn {
+            background-color: #4285f4;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #1a73e8;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -104,235 +154,17 @@
         <div class="skills">
             <strong>Habilidades Essenciais:</strong>
             <ul>
-                <li>Matemática Avançada
-                    <ul>
-                        <li>Álgebra Linear</li>
-                        <li>Cálculo Vetorial</li>
-                        <li>Geometria Computacional</li>
-                    </ul>
-                </li>
-                <li>Linguagens de Programação
-                    <ul>
-                        <li>Python (Foco Principal)</li>
-                        <li>C++ (Performance)</li>
-                        <li>ROS (Robot Operating System)</li>
-                    </ul>
-                </li>
+                <li>Matemática Avançada</li>
+                <li>Linguagens de Programação (Python e C++)</li>
             </ul>
         </div>
-        <div class="project-tip">
-            🚨 Projetos Iniciais:
-            <ul>
-                <li>Simulador básico de movimento de robô</li>
-                <li>Controle de drone em ambiente simulado</li>
-            </ul>
+        <div class="btn-container">
+            <a href="#linguagens" class="btn">Ver mais</a>
         </div>
     </div>
 
-    <div class="stage">
-        <h2>Robótica e Navegação Autônoma (6-12 meses)</h2>
-        <div class="skills">
-            <strong>Tecnologias e Habilidades:</strong>
-            <ul>
-                <li>Algoritmos de Navegação
-                    <ul>
-                        <li>SLAM (Simultaneous Localization and Mapping)</li>
-                        <li>Path Planning</li>
-                        <li>Odometria</li>
-                        <li>Algoritmos de Localização</li>
-                    </ul>
-                </li>
-                <li>Sensores e Percepção
-                    <ul>
-                        <li>Processamento de dados de LiDAR</li>
-                        <li>Visão Computacional</li>
-                        <li>Fusão de Sensores</li>
-                        <li>Processamento de Imagem com OpenCV</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="project-tip">
-            🛠 Projetos Práticos:
-            <ul>
-                <li>Sistema de navegação autônoma para robô móvel</li>
-                <li>Mapeamento 3D com sensor LiDAR</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="stage">
-        <h2>Inteligência Artificial e Machine Learning (12-18 meses)</h2>
-        <div class="skills">
-            <strong>Áreas de Concentração:</strong>
-            <ul>
-                <li>Aprendizado por Reforço
-                    <ul>
-                        <li>Q-Learning</li>
-                        <li>Deep Reinforcement Learning</li>
-                        <li>Algoritmos de decisão para robôs</li>
-                    </ul>
-                </li>
-                <li>Redes Neurais Especializadas
-                    <ul>
-                        <li>Redes convolucionais para visão</li>
-                        <li>Redes recorrentes para sequências</li>
-                        <li>Redes generativas para simulação</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="project-tip">
-            🤖 Desafios de Projeto:
-            <ul>
-                <li>Treinamento de agente para navegação autônoma</li>
-                <li>Controle de braço robótico via aprendizado por reforço</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="stage">
-        <h2>Desenvolvimento Avançado (18-24 meses)</h2>
-        <div class="skills">
-            <strong>Tecnologias Avançadas:</strong>
-            <ul>
-                <li>Frameworks Especializados
-                    <ul>
-                        <li>ROS2</li>
-                        <li>Gazebo</li>
-                        <li>OpenAI Gym</li>
-                        <li>Isaac Sim (NVIDIA)</li>
-                    </ul>
-                </li>
-                <li>Desenvolvimento de Software Robótico
-                    <ul>
-                        <li>Arquitetura de software para robôs</li>
-                        <li>Sistemas de tempo real</li>
-                        <li>Middleware robótico</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="project-tip">
-            🚀 Projetos Complexos:
-            <ul>
-                <li>Drone autônomo com desvio de obstáculos</li>
-                <li>Robô colaborativo com aprendizado adaptativo</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="stage">
-        <h2>📚 Recursos Gratuitos Detalhados</h2>
-        
-        <div class="resource-section">
-            <div class="resource-card">
-                <h3>🎓 Cursos Online Gratuitos</h3>
-                <ul>
-                    <li>Udacity: Intro to Robotics</li>
-                    <li>edX: MIT Robotics Fundamentals</li>
-                    <li>Coursera: Robótica UPenn</li>
-                    <li>Google: ML Crash Course</li>
-                    <li>Stanford: CS231n</li>
-                </ul>
-            </div>
-
-            <div class="resource-card">
-                <h3>🎥 Canais do YouTube</h3>
-                <ul>
-                    <li>Two Minute Papers</li>
-                    <li>Real Engineering</li>
-                    <li>Computerphile</li>
-                    <li>Lex Fridman</li>
-                    <li>Boston Dynamics</li>
-                    <li>NVIDIA AI</li>
-                </ul>
-            </div>
-
-            <div class="resource-card">
-                <h3>📖 Livros Gratuitos</h3>
-                <ul>
-                    <li>Probabilistic Robotics</li>
-                    <li>Intro to Autonomous Robots</li>
-                    <li>Learning OpenCV</li>
-                    <li>ROS Documentation</li>
-                    <li>ArXiv Academic Papers</li>
-                </ul>
-            </div>
-
-            <div class="resource-card">
-                <h3>🎧 Podcasts Técnicos</h3>
-                <ul>
-                    <li>Lex Fridman Podcast</li>
-                    <li>The Robot Podcast</li>
-                    <li>Data Skeptic</li>
-                    <li>MIT AI Podcast</li>
-                </ul>
-            </div>
-
-            <div class="resource-card">
-                <h3>💻 Repositórios GitHub</h3>
-                <ul>
-                    <li>awesome-robotics</li>
-                    <li>OpenCV</li>
-                    <li>ROS</li>
-                    <li>DeepMind Robotics</li>
-                    <li>Berkeley AI Research</li>
-                </ul>
-            </div>
-
-            <div class="resource-card">
-                <h3>🌐 Comunidades Online</h3>
-                <ul>
-                    <li>Reddit: r/robotics</li>
-                    <li>ROS Discord</li>
-                    <li>OpenCV Discord</li>
-                    <li>Stack Overflow Robotics</li>
-                    <li>IEEE Robotics</li>
-                </ul>
-            </div>
-
-            <div class="resource-card">
-                <h3>🔧 Ferramentas Gratuitas</h3>
-                <ul>
-                    <li>Gazebo</li>
-                    <li>V-REP</li>
-                    <li>CoppeliaSim</li>
-                    <li>ROS Noetic</li>
-                    <li>Isaac Sim (Acadêmico)</li>
-                </ul>
-            </div>
-
-            <div class="resource-card">
-                <h3>🔬 Recursos Científicos</h3>
-                <ul>
-                    <li>ArXiv</li>
-                    <li>IEEE Xplore</li>
-                    <li>ACM Digital Library</li>
-                    <li>Google Scholar</li>
-                </ul>
-            </div>
-
-            <div class="resource-card">
-                <h3>⚙️ Plataformas de Prática</h3>
-                <ul>
-                    <li>Kaggle</li>
-                    <li>HackerRank</li>
-                    <li>CodeChef</li>
-                    <li>Project Euler</li>
-                    <li>LeetCode</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="skills">
-            <h3>💡 Dicas Finais</h3>
-            <p>Crie um repositório no GitHub documentando sua jornada. Inclua projetos, anotações e experimentos. Este será seu portfólio profissional!</p>
-        </div>
-    </div>
-
-    <div class="project-tip">
-        🔑 Lembre-se: Consistência, prática e paixão são fundamentais para se tornar um engenheiro de IA em robótica de sucesso!
-    </div>
+    <footer>
+        <p>&copy; 2024 Roadmap Engenheiro de IA. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
